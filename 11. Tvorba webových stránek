@@ -4,10 +4,10 @@
 -značkovací jazyk, který se používá pro vytváření webových stránek je HTML
 ______
 - HTML
--Vytváří se do tzv. HTML elementů, které se skládají z tagů (značek) uzavřené v úhlových závorkách < a >. Například <html>. 
+-Vytváří se do tzv. HTML elementů, které se skládají z tagů (/značek) uzavřené v úhlových závorkách < a >. Například <html>. 
 -Většina HTML tagů je párová – to znamená, že se musejí zakončovat stejným tagem s lomítkem na začátku (např. <h1> a </h1>). 
 Existují také tagy, které stojí o samotě (nepárové) - např. <img>
--Tagy můžeme rozdělit do:
+-Tagy můžeme rozdělit na:
   Strukturální – rozvrhují strukturu dokumentu. Příkladem je třeba <p> či nadpisy
   Popisné - popisují obsahu prvku. Příklad je <title>
   Stylistické - určují vzhled prvku při zobrazení. Např b, i, u
