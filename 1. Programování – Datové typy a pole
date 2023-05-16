@@ -9,9 +9,9 @@ ___
 znaky (char),
 logické hodnoty (boolean),
 
--referenční typy:
+(-referenční typy:
 třídy (class),
-pole (array)
+pole (array))
 ___
 Logická hodnota (boolean) – může nabývat hodnot 0/1 nebo false/true.
 Celé číslo (integer) – v C je standartně integer 16bitový a proto může nabývat od -216-1 až 216-1 (-65535 < i < 65535)
@@ -20,7 +20,13 @@ Reálné číslo (double, float, real) – ukládá čísla s desetinnými čís
 V C se můžeme setkat s prázdným datovým typem void, pro který nenabývá žádných hodnot. 
 Může sloužit pro deklaraci funkce, která nemá návratovou hodnotu.
 ___
--Definice X Deklarace (udává typ a jméno) - Definice alokuje paměť pro proměnnou v paměti RAM
+-Definice - alokuje paměť pro proměnnou v paměti RAM
+X Deklarace (udává typ a jméno) - Výčet všech proměnných, které se v programu objeví
+___
+typy deklarace:
+-Statická - hned nahoře v ,,bloku” si definujeme VŠECHNY proměnné a zablokujeme místečko hned -(pomalé, ale bezpečné 
++ nemohu proměnnou deklarovat vícekrát)
+-Dynamická - deklarujeme proměnnou tam, kde jsou potřeba v daném čase a místě
 ___
 -Aritmetické operátory:
 + součet
@@ -42,9 +48,17 @@ proměnných typu char a boolean. Výsledkem je hodnota typu boolean, tj. buď p
 > větší než
 <= menší nebo rovno
 >= větší nebo rovno
-____
-
-Příklad
+___________
+- Datová pole (array) = soubor hodnot, datová struktura, která sdružuje daný počet prvků stejného datového typu.
+      - pole definujeme tak, že je to nějaké místo v paměti pro několik proměnných stejného typu uložených pod stejným identifikátorem
+když potřebujeme neomezený počet proměnných a navíc uspořádaných - využijeme seznam
+      - Na položku v seznamu se odkazujeme indexem
+      - seznam začíná vždy od nuly! (proto když vypíšeme print ⦗1⦘, vypíše to druhou položku)
+      
+      - Pole deklarujeme skoro týmž způsobem jako proměnné  =>  datový typ + název + rozsah
+       - Pole jsou dobré, protože v nich můžeme uložit více dat
+__________
+Příklady
 1) Určete, jaká bude hodnota v proměnné -a- po skončení této sekvence příkazů:
 int a,b,c; // definujeme proměnné typy integer
 a=b=c=0; // přiřazení hodnoty 0 všem proměnným
