@@ -1,6 +1,11 @@
 12. OPERAČNÍ SYSTÉMY
 
 -software, který řídí a spravuje hardware počítače a poskytuje uživatelům prostředí pro interakci s počítačem.
+-OS(operační systém) spravuje paměť, procesy, soubory, síťová připojení a další systémové prostředky.
+-Důležitou součástí OS jsou ovladače, které umožňují komunikaci mezi hardwarem a softwarem.
+-OS umožňují spouštění a běh aplikací, ať už jsou to kancelářské programy, webové prohlížeče, hry nebo specializovaný software.
+-Aktualizace operačního systému jsou důležité pro zajištění bezpečnosti a vylepšení funkčnosti.
+-Operační systémy mohou být nainstalovány na osobní počítače, serverové systémy, mobilní zařízení, vestavěné systémy a další zařízení.
 _______
 -Windows: Populární operační systém vyvinutý společností Microsoft - na trhu od roku 1985 a za tu dobu vyšla více jak desítka verzí
   -dnes součástí téměř každé domácnosti i kanceláře
@@ -14,18 +19,19 @@ _______
   -Založený na OS Unixu. Existuje mnoho distribucí Linuxu - např. Ubuntu, Fedora nebo Debian.
 -Unix: Operační systém s více variantami, který je široce používán v serverovém prostředí. Předchůdce mnoha dnešních OS.
 ______
--Android: Operační systém vyvinutý společností Google pro mobilní zařízení, jako jsou telefony a tablety.
+-Android: založený na jádře Linuxu, vyvinutý (Googlem) pro mobilní zařízení, jako jsou chytré telefony, tablety, chytré hodinky, ...
   -nejrozšířenějším mobilním operačním systémem na světě
-  -
--iOS: Operační systém vyvinutý společností Apple pro jejich mobilní zařízení, jako jsou iPhone a iPad.
+  -postaven na otevřeném zdrojovém kódu - umožňuje vývojářům a výrobcům upravovat a přizpůsobovat
+  -pro vývoj aplikací pro Android se používá programovací jazyk Java nebo Kotlin a vývojové prostředí Android Studio
+  -na zařízeních od - Samsung, LG, Motorola, HTC, Lenovo
+  -verze označeny názvy sladkostí - 1.5 Cupcake, 1.6 Donut, 4.4 KitKat, 8.0 Oreo, novější verze už ne
+  
+-iOS: Operační systém vyvinutý společností Apple pro jejich mobilní zařízení, jako jsou iPhone, iPad, iPod
+  -optimalizován pro integrovanou hardwarovou a softwarovou harmonii Apple zařízení - málo různých zařízení - lépe optimalizované
+  -Architektura iOS je založena na jádře Darwin, které je založeno na BSD, což je odnož Unixu
+  -vývoj aplikací pomocí programovacího jazyka - Swift, který je vyvinutý společností Apple. Také možno použít Objective-C.
+  -stabilita, výkon, elegantní design a uživatelsky přívětivé rozhraní + Apple ekosystém - propojení s dalšími Apple zařízeními
+______
 
-
-
-
--OS(operační systém) spravuje paměť, procesy, soubory, síťová připojení a další systémové prostředky.
--Důležitou součástí OS jsou ovladače, které umožňují komunikaci mezi hardwarem a softwarem.
--OS umožňují spouštění a běh aplikací, ať už jsou to kancelářské programy, webové prohlížeče, hry nebo specializovaný software.
--Aktualizace operačního systému jsou důležité pro zajištění bezpečnosti a vylepšení funkčnosti.
--Operační systémy mohou být nainstalovány na osobní počítače, serverové systémy, mobilní zařízení, vestavěné systémy a další zařízení.
 
 
