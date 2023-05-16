@@ -1,1 +1,33 @@
+13. CSS JAKO NADSTAVBA HTML
 
+HTMl - základní značkovací jazyk, který se používá k tvorbě webu - vytváří pouze obsah (text) stránky, vizuální úpravy(font, barva,...)
+  jsou přes HTML zdlouhavé a neefektivní - používá se CSS
+____
+CSS - Cascading Style Sheets (Kaskádové styly)- jazyk pro popis způsobu zobrazení stránek napsaných v jazycích HTML, XHTML nebo XML. 
+  Hlavním smyslem je umožnit vývojářům oddělit vzhled dokumentu od jeho struktury a obsahu (HTML) + má rozsáhlejší možnosti formátování
+  + Jednodušší údržba webu - Pokud chceme změnit nějaký detail, jako třeba barvu nadpisu, nemusíme složitě procházet HTML kód nebo 
+  různé HTML šablony, ale můžeme změnit pouze jednu vlastnost v CSS souboru
+  -Cachování stylů - webový prohlížeč si může soubor se styly uložit do cache paměti, čímž může být dosaženo zrychlení načtení stránky. 
+  Na druhou stranu při použití externího CSS souboru dochází k dalšímu HTTP požadavku navíc oproti tomu, když bychom použili buď online 
+  CSS nebo přímo formátování HTML. 
+-Založeno na selektorech. Selektory umožňují vybrat prvky na stránce podle určitých kritérií a potom tyto prvky ostylovat. 
+  -dokument CSS nemá na rozdíl od HTML žádnou speciální strukturu a kromě selektorů do něj již není potřeba psát cokoli navíc.
+  -typový selektor - na stránce jednoduše vybere všechny elementy daného typu. Budeme-li chtít např. vybrat všechny nadpisy <h1> na
+  stránce, CSS kód bude vypadat následovně: značka (např. h1) {vlastnosti} ==> h1 {color: white)
+-VLASTNOSTI: color: určuje barvu textu. background-color: určuje barvu pozadí prvku. font-size: určuje velikost písma. 
+  font-family: určuje typ písma. text-align: určuje zarovnání textu (vlevo, vpravo, střed). width: určuje šířku prvku.
+  height: určuje výšku prvku. border: určuje rámeček kolem prvku. opacity: určuje průhlednost prvku.
+ 
+-Hlavní nevýhodou CSS je ne vždy dostatečná podpora v majoritních prohlížečích. Prohlížeče obsahují v implementaci CSS chyby a je 
+ někdy nesnadné napsat kód tak, aby se ve všech (resp. v běžných) prohlížečích výsledek zobrazil stejně. Situace se poslední dobou 
+ značně zlepšuje - opravami chyb v prohlížečích a nástupem nových verzí.
+______
+-JAVASCRIPT
+  
+
+
+
+
+
+
+CSS vlastnosti můžeme dynamicky měnit pomocí Javascriptu.
