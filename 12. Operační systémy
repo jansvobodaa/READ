@@ -1,3 +1,31 @@
 12. OPERAČNÍ SYSTÉMY
 
-- 
+-software, který řídí a spravuje hardware počítače a poskytuje uživatelům prostředí pro interakci s počítačem.
+_______
+-Windows: Populární operační systém vyvinutý společností Microsoft - na trhu od roku 1985 a za tu dobu vyšla více jak desítka verzí
+  -dnes součástí téměř každé domácnosti i kanceláře
+  -v současnosti už jen modernější 64bitová verze. Starší 32bitové Windows podporují pouze 4 GB RAM a dnes už se moc nepoužívají
+  -nejnovější Windows 11
+-macOS: Operační systém vyvinutý společností Apple pro jejich počítače Macintosh.
+  -plynulejší chod - stačí přizpůsobit pouze pár zařízením (X Windows mají tisíce počítačů)
+  -bohatší software výbavu a lepší propojení s dalšími Apple zařízeními
+  -špatně kompatibilní s některými programy (např. hry)
+-Linux: Volně šiřitelný a moderní operační systém, který si zakládá na otevřeném (open source) a svobodném přístupu k zdrojovému kódu.
+  -Založený na OS Unixu. Existuje mnoho distribucí Linuxu - např. Ubuntu, Fedora nebo Debian.
+-Unix: Operační systém s více variantami, který je široce používán v serverovém prostředí. Předchůdce mnoha dnešních OS.
+______
+-Android: Operační systém vyvinutý společností Google pro mobilní zařízení, jako jsou telefony a tablety.
+  -nejrozšířenějším mobilním operačním systémem na světě
+  -
+-iOS: Operační systém vyvinutý společností Apple pro jejich mobilní zařízení, jako jsou iPhone a iPad.
+
+
+
+
+-OS(operační systém) spravuje paměť, procesy, soubory, síťová připojení a další systémové prostředky.
+-Důležitou součástí OS jsou ovladače, které umožňují komunikaci mezi hardwarem a softwarem.
+-OS umožňují spouštění a běh aplikací, ať už jsou to kancelářské programy, webové prohlížeče, hry nebo specializovaný software.
+-Aktualizace operačního systému jsou důležité pro zajištění bezpečnosti a vylepšení funkčnosti.
+-Operační systémy mohou být nainstalovány na osobní počítače, serverové systémy, mobilní zařízení, vestavěné systémy a další zařízení.
+
+
