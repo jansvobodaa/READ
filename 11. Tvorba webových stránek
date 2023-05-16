@@ -8,9 +8,9 @@ ______
 -Většina HTML tagů je párová – to znamená, že se musejí zakončovat stejným tagem s lomítkem na začátku (např. <h1> a </h1>). 
 Existují také tagy, které stojí o samotě (nepárové) - např. <img>
 -Tagy můžeme rozdělit do:
-Strukturální – rozvrhují strukturu dokumentu. Příkladem je třeba <p> či nadpisy
-Popisné - popisují obsahu prvku. Příklad je <title>
-Stylistické - určují vzhled prvku při zobrazení. Např b, i, u
+  Strukturální – rozvrhují strukturu dokumentu. Příkladem je třeba <p> či nadpisy
+  Popisné - popisují obsahu prvku. Příklad je <title>
+  Stylistické - určují vzhled prvku při zobrazení. Např b, i, u
 
 -Tagy můžou být charakterizovány vlastnostmi (atributy). Tyto atributy poskytují prohlížeči informace o tom, jak by se měl tag 
 zobrazit nebo chovat. Skládají se z názvu a hodnoty vzájemně oddělené rovnítkem „=“. Např. <body bgcolor=“red“>
@@ -43,14 +43,14 @@ _______
 -dokument nemá na rozdíl od HTML žádnou speciální strukturu a kromě selektorů do něj již není potřeba psát cokoli navíc.
 -typový selektor, který na stránce jednoduše vybere všechny elementy daného typu. Budeme-li chtít např. vybrat všechny nadpisy <h1> na
 stránce, CSS kód bude vypadat následovně: h1 { vlastnosti }
--VLASTNOSTI: color: určuje barvu textu. background-color: určuje barvu pozadí prvku. font-size: určuje velikost písma. 
-font-family: určuje typ písma. text-align: určuje zarovnání textu (vlevo, vpravo, střed). width: určuje šířku prvku.
-height: určuje výšku prvku. border: určuje rámeček kolem prvku. opacity: určuje průhlednost prvku.
+  -VLASTNOSTI: color: určuje barvu textu. background-color: určuje barvu pozadí prvku. font-size: určuje velikost písma. 
+  font-family: určuje typ písma. text-align: určuje zarovnání textu (vlevo, vpravo, střed). width: určuje šířku prvku.
+  height: určuje výšku prvku. border: určuje rámeček kolem prvku. opacity: určuje průhlednost prvku.
 ______
 -dále se k tvorbě webů využívají tyto jazyky:
--skriptovací (pro interaktivitu a dynamické prvky na webových stránkách) - JavaScript
--backendové (pro vytváření dynamických webových stránek a interakci s databázemi) - Python, Ruby
--databázové jazyky (práce s relačními databázemi. vytváření, aktualizaci a dotazování dat v databázových systémech) - SQL
+  -skriptovací (pro interaktivitu a dynamické prvky na webových stránkách) - JavaScript
+  -backendové (pro vytváření dynamických webových stránek a interakci s databázemi) - Python, Ruby
+  -databázové jazyky (práce s relačními databázemi. vytváření, aktualizaci a dotazování dat v databázových systémech) - SQL
 ______
 Otázky
 1) Jak vznikají webové stránky, jakými jazyky mohou být tvořeny, co to je prohlížeč a jaké znáte?
