@@ -43,4 +43,12 @@ spojené s provozem PC. Dále poskytuje sadu knihoven, ovladačů a nástrojů p
 
 2)Bootování (legacy vs. UeFI vs. PXE)
 -bootování - proces - provádí se při zapnutí počítače nebo restartu a zajišťuje inicializaci operačního systému a spuštění PC.
--legacy boot (BIOS boot): Legacy boot je tradiční metoda bootování používaná v počítačích s BIOS (Basic Input/Output System). Při legacy bootování počítač načítá bootloader (nahrávač) z MBR (Master Boot Record) disku. MBR obsahuje informace o bootovacím zařízení a bootovacím sektoru, který obsahuje samotný bootloader. Legacy bootování je závislé na MBR, což má některá omezení, jako maximální velikost disku, omezení na počet primárních oddílů atd.
+-legacy boot (BIOS boot): tradiční metoda bootování používaná v počítačích s BIOS (Basic Input/Output System). 
+  Počítač načítá bootloader (nahrávač) z MBR (Master Boot Record) disku - ten obsahuje informace o bootovacím zařízení a bootovacím 
+  sektoru, který obsahuje samotný bootloader. Legacy bootování je závislé na MBR - to má některá omezení, např. maximální velikost disku.
+-UEFI boot: modernější standard pro bootování počítače, nahrazující starší BIOS. Poskytuje pokročilejší rozhraní mezi hardwarem a OS.
+  UEFI umožňuje bootování z GPT (GUID Partition Table) disku, který podporuje větší kapacitu disků a více oddílů. Při UEFI bootování je 
+  na systémovém oddílu disku umístěn bootloader, který je schopen načítat operační systém a další spustitelné soubory.
+-PXE boot (Preboot Execution Environment): speciální metoda bootování, která umožňuje počítači spouštět operační systém přes síť. 
+  Vyžaduje síťovou kartu s podporou PXE a konfiguraci DHCP (Dynamic Host Configuration Protocol) serveru, který poskytuje IP adresu 
+  a další informace počítači. Při bootování se počítač pokouší načíst OS přes síťové rozhraní namísto tradičního pevného disku.
