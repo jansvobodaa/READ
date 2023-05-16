@@ -35,6 +35,18 @@ _____
     na jednom nebo několika projektech
 -Bez relace - např. tabulky v Excelu
 _____
+-MySQL- populární relační databázový systém, Implementace MySQL zahrnuje několik klíčových prvků:
+-tabulky: Data jsou organizována do tabulek s řádky a sloupci
+-datové typy: MySQL podporuje různé datové typy, např. čísla, text, datum a čas
+-klíče: Slouží k identifikaci a propojení dat v různých tabulkách. Může se jednat o primární klíče, cizí klíče nebo unikátní klíče.
+-indexy: Slouží k rychlému vyhledávání dat a optimalizaci výkonu dotazů
+-Implementace MySQL je nezávislá na platformě a podporuje různé operační systémy.
+-Otevřený zdrojový kód a nabízí širokou podporu a rozsáhlou komunitu uživatelů.
+-vyvinut a spravován společností Oracle Corporation.
+-charakterizován svou vysokou rychlostí a spolehlivostí.
+-Podporuje širokou škálu aplikací a webových stránek - včetně WordPress
+-YouTube, Facebook, Twitter a Airbnb - používá MySQL jako svůj databázový systém
+_____
 Otázky
 1) Co to je databáze, z čeho se skládá a k čemu slouží?
 Databáze je virtuální místo, do kterého se ukládá určitá množina dat (informací). Databáze se skládá z tabulek. 
@@ -49,5 +61,6 @@ databáze, dokumentově orientovaná databáze
 ^ viz nahoře ^
 5) Jaké databázové systémy znáte?
 SQL Server, Oracle, Firebird, MS Access
+
 
 
