@@ -1,1 +1,53 @@
 10. DATABÁZE A JEJICH IMPLEMENTACE V MYSQL
+
+-Databáze je virtuální místo, do kterého se ukládá určitá množina dat (informací). 
+Databáze se skládá z tabulek. Tabulky se skládají ze záznamů. Tato data jsou archivována, lze s nimi manipulovat a spravovat je. 
+(S nadsázkou se dá říci, že se jedná o elektronickou kartotéku.)
+-typy: 
+-Hierarchická databáze - hierarchická struktura organizace dat, 1 předek a libovolný počet potomků, např. IMS
+-Síťová databáze - propojení dat pomocí sítě vztahů, např. IDS
+-Relační databáze - organizace dat do tabulek s řádky a sloupci, pracuje na principu klient/server, systém správy dat 
+se nazývá DBMS (DataBase Management System), vztahy mezi tabulkami definovány klíči, např. MySQL
+-Objektová databáze - datová reprezentace pomocí objektů s vlastnostmi a metodami, propojení objektů pomocí odkazů
+-Objektově relační databáze - kombinace objektového a relačního modelu
+-Dokumentově orientovaná databáze - ukládání dat ve formě dokumentů s různými strukturami, flexibilita při reprezentaci dat
+_____
+-Každý záznam v tabulce musí být jednoznačně identifikován. Každý záznam by měl být unikátní díky souhrnu svých atributů. 
+Tomuto souhrnu všech hodnot se říká tzv. superklíč.
+-Tabulka - běžná tabulka tvořena sloupci a řádky, zapisují se do ní data (informace), která se pak archivují do paměti relační 
+databáze, tabulka reprezentuje nějaký objekt
+    -Sloupec (atribut) - součástí tabulky; každý sloupec má přiřazený určitý datový typ (text, čísla, datum), 
+    identifikátor (název sloupce), rozsah (je upřesněn přímo typem)
+    -Řádek - jsou v něm zapsané přislušné informace, které musí být v souladu s atributy sloupce 
+    (ve sloupci s názvem příjmení napíši do řádku příjmení atd.), odpovídá jednomu výskytu objektu, který je modelován tabulkou
+    -Primární klíč - pole, které jednoznačně identifikuje libovolný záznam v tabulce (může být například ID); 
+    každá tabulka má mít právě jeden primární klíč; nesmí obsahovat NULL hodnotu
+    -Cizí klíč - udává vztah mezi dvěma tabulkami (jedna je primární, druhá je cizí); jedna hodnota z jednoho 
+    sloupce primární tabulky odkazuje na tu stejnou hodnotu ve sloupci cizí tabulky
+_____
+-Relace - vztah mezi množinou prvků; logické vazby mezi tabulkami; základní konstruktor relačních databází
+    - 1:1 - 1 záznamu v jedné tabulce odpovídá přesně 1 záznam v druhé tabulce (mnohdy bývá u nevhodně 
+    navržených databází), př. uživatel a zákazník
+    - 1:N - 1 záznam v jedné tabulce odpovídá několika záznamům v druhé tabulce (velice často se používá u rozsáhlých 
+    databází), př. Jeden zákazník si objedná několik produktů
+    - N:M → více záznamů v jedné tabulce odpovídá více záznamům v druhé; k vytvoření této relace je zapotřebí vytvořit 
+    tabulky s relacemi 1:N a ty poté vzájemně propojit mezi sebou skrze třetí tabulku do vztahu N:M, př. Projekty a pracovníci 
+    na jednom nebo několika projektech
+-Bez relace - např. tabulky v Excelu
+_____
+Otázky
+1) Co to je databáze, z čeho se skládá a k čemu slouží?
+Databáze je virtuální místo, do kterého se ukládá určitá množina dat (informací). Databáze se skládá z tabulek. 
+Tabulky se skládají ze záznamů. Tato data jsou archivována, lze s nimi manipulovat a spravovat je. S nadsázkou se dá říci, 
+že se jedná o elektronickou kartotéku
+2) Jaké základní databázové modely znáte?
+Existují tyto typy databází → Hierarchická databáze, síťová databáze, relační databáze, objektová databáze, objektově relační 
+databáze, dokumentově orientovaná databáze
+3) Vysvětlete základní pojmy relační databáze: tabulka, sloupec, řádek, primární klíč, cizí klíč, integrita databáze, relace
+^ viz nahoře ^
+4) Popište základní typy relací mezi tabulkami.
+^ viz nahoře ^
+5) Jaké databázové systémy znáte?
+SQL Server, Oracle, Firebird, MS Access
+
+
