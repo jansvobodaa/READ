@@ -1,1 +1,70 @@
+11. TVORBA WEBOVÝCH STRÁNEK
+
+-Architektura webových stránek: klient-server model, HTTP protokol
+-značkovací jazyk, který se používá pro vytváření webových stránek je HTML
+______
+- HTML
+-Vytváří se do tzv. HTML elementů, které se skládají z tagů (značek) uzavřené v úhlových závorkách < a >. Například <html>. 
+-Většina HTML tagů je párová – to znamená, že se musejí zakončovat stejným tagem s lomítkem na začátku (např. <h1> a </h1>). 
+Existují také tagy, které stojí o samotě (nepárové) - např. <img>
+-Tagy můžeme rozdělit do:
+Strukturální – rozvrhují strukturu dokumentu. Příkladem je třeba <p> či nadpisy
+Popisné - popisují obsahu prvku. Příklad je <title>
+Stylistické - určují vzhled prvku při zobrazení. Např b, i, u
+
+-Tagy můžou být charakterizovány vlastnostmi (atributy). Tyto atributy poskytují prohlížeči informace o tom, jak by se měl tag 
+zobrazit nebo chovat. Skládají se z názvu a hodnoty vzájemně oddělené rovnítkem „=“. Např. <body bgcolor=“red“>
+-Jazyk HTML je non-case sensitive. To znamená, že nezáleží na velikosti znaků. Tedy pokud napíšete <html>, tak je to totéž co <HTML>. 
+V jediném případě kdy záleží, je při zápisu URL, v javascriptu nebo u zápisu CSS stylů.
+-Každá struktura HTML dokumentu začíná (nejlépe) DTD direktivem <!DOCTYPE html>, což sděluje prohlížeči, že otevřel HTML dokument.
+Poté kořenovým elementem <html> </html>. <head> </head> - poskytuje informace o dokumentu. <body> </body> - viditelná část stránky. 
+Vypadá tedy nějak takto:
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title> Titulní text v lištách úplně hahoře + doplněno mini logem </title>
+    </head>
+    <body>
+      <h1> Nadpis </h1>
+        <p>
+          paragraf - obsah stránky
+        </p>
+    </body>
+</html>
+
+-HTML můžeme psát v podstatě v čemkoliv. Ačkoliv existují i programy (editory), které zvládají barevnou syntaxi (barevně rozlišit tagy, 
+vlastnosti a prostý text), napovídat tagy nebo tabování. Mezi nejznámější editory patří Notepad++, PSPad, Sublime Text nebo NetBeans. 
+Existují také WYSIWYG editory a to je například Microsoft FrontPage
+_______
+-CSS (Cascading Style Sheets - kaskádové styly)
+-značkovací jazyk používaný pro formátování a vizuální prezentaci webových stránek
+-úkolem CSS je oddělit vzhled dokumentu od samotné struktury a obsahu
+-založeno na tzv. selektorech. Selektory umožňují vybrat prvky na stránce podle určitých kritérií a potom tyto prvky ostylovat. 
+-dokument nemá na rozdíl od HTML žádnou speciální strukturu a kromě selektorů do něj již není potřeba psát cokoli navíc.
+-typový selektor, který na stránce jednoduše vybere všechny elementy daného typu. Budeme-li chtít např. vybrat všechny nadpisy <h1> na
+stránce, CSS kód bude vypadat následovně: h1 { vlastnosti }
+-VLASTNOSTI: color: určuje barvu textu. background-color: určuje barvu pozadí prvku. font-size: určuje velikost písma. 
+font-family: určuje typ písma. text-align: určuje zarovnání textu (vlevo, vpravo, střed). width: určuje šířku prvku.
+height: určuje výšku prvku. border: určuje rámeček kolem prvku. opacity: určuje průhlednost prvku.
+______
+-dále se k tvorbě webů využívají tyto jazyky:
+-skriptovací (pro interaktivitu a dynamické prvky na webových stránkách) - JavaScript
+-backendové (pro vytváření dynamických webových stránek a interakci s databázemi) - Python, Ruby
+-databázové jazyky (práce s relačními databázemi. vytváření, aktualizaci a dotazování dat v databázových systémech) - SQL
+______
+Otázky
+1) Jak vznikají webové stránky, jakými jazyky mohou být tvořeny, co to je prohlížeč a jaké znáte?
+Webové stránky vznikají napsáním zdrojového kódu a to například v jazycích HTML, XML, SGML, PHP, Javascript nebo CSS. 
+Prohlížeč je počítačový program, který nám umožňuje prohlížení webových stránek.(Internet Explorer, Firefox, Chrome, Opera, Safari)
+2) Popište strukturu webové stránky
+^ viz nahoře ^
+3) Co to je validace webových stránek, kdo ji provádí a k čemu slouží?
+Validace webových stránek je jinými slovy oprava chyb ve zdrojovém kódu webové stránky. Slouží tedy k opravení chyb ve zdrojovém 
+kódu stránky. Validaci provádí webové nástroje (např. http://validator.webylon.info)
+4) Vytvořte 2 navzájem propojené webové stránky, na kterých předvedete znalost tagů pro titulek, různé typy nadpisů, 
+odkazy, vkládání obrázků, tvorbu seznamů a členění textu (odstavce a zalomení řádku). Vhodné texty si vymyslete a obrázky 
+si najděte libovolné na internetu:
+
+5) Popište postup jak byste tyto vytvořené stránky publikovali na internetu:
+Získání webového hostingu –> Přenos souborů (html,css,...) na hosting –> Nastavení domény –> Testování a kontrola –> publikovat
 
