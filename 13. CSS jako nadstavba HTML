@@ -34,11 +34,25 @@ ______
   tvorbu všemožných prvků k oživení webu, přes blikající texty po jednoduché hry. 
 -Základem dynamického webu je právě JavaScript. Abyste mohli pracovat s JavaScriptem měli byste znát základy HTML. 
 -JavaScript je závislý na prohlížeči (uživatel si může vypnout). V různých verzích prohlížečů nemusí vždy korektně fungovat.
-  
+______
+Otázky
+1) Co znamená zkratka CSS a co se za ní schovává? Jaké jsou výhody a nevýhody používání CSS při tvorbě webových stránek?
+^ viz nahoře ^
+2)Jaké způsoby pro zápis CSS do HTML stránek znáte? Jak se od sebe liší a jaké postavení tyto způsoby mezi sebou mají?
+-INLINE STYLY - CSS přímo do HTML elementů pomocí atributu "style". Např. <p style="color: blue;"> NĚJAKÝ TEXT </p> 
+-INTERNÍ STYLY - Pomocí <style> lze vložit CSS přímo do <head> sekce HTML dokumentu. Vnitřní styly jsou aplikovány na všechny 
+  elementy stránky, které odpovídají zvoleným selektorům.
+-EXTERNÍ STYLY - CSS zapsán do samostatného souboru s příponou .css. Tento soubor je pak odkazován z HTML stránky pomocí elementu <link>. 
+  např. <link rel= "stylesheet" href="styles.css">
+  -dnes nejpoužívanější - dobře oddělený obsah stránky (HTML) od formátování a vizuální úpravy (CSS)
 
+3) Co to je v CSS blok? Jaké tagy se k tvorbě bloků využívají?
+Blok (v originále box) hraje ve formátování pomocí CSS velmi důležitou roli. Jedná se o obdélníkovou oblast, kterou zabírá prvek 
+společně se svými "obalovými technologiemi", jako jsou rámečky a spol. Jádrem bloku je jeho obsah -content- . Čili text, obrázek či 
+něco podobného, co způsobilo, že blok vůbec vznikl. Kolem obsahu lze vytvořit rámeček -border- . Často ovšem není vhodné, aby byl 
+rámeček "nalepen" těsně na obsah. Proto se mezi nimi nachází výplň -padding- určující vzdálenost rámečku od obsahu bloku. A kolem 
+rámečku pak ještě bývá okraj -margin- .
 
+4) Co to je Javascript? K čemu se používá při tvorbě webových stránek?
+^ viz nahoře ^  (CSS vlastnosti můžeme dynamicky měnit pomocí Javascriptu)
 
-
-
-
-CSS vlastnosti můžeme dynamicky měnit pomocí Javascriptu.
