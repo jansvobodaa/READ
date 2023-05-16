@@ -42,7 +42,7 @@ _______
 -založeno na tzv. selektorech. Selektory umožňují vybrat prvky na stránce podle určitých kritérií a potom tyto prvky ostylovat. 
 -dokument nemá na rozdíl od HTML žádnou speciální strukturu a kromě selektorů do něj již není potřeba psát cokoli navíc.
 -typový selektor, který na stránce jednoduše vybere všechny elementy daného typu. Budeme-li chtít např. vybrat všechny nadpisy <h1> na
-stránce, CSS kód bude vypadat následovně: h1 { vlastnosti }
+stránce, CSS kód bude vypadat následovně: značka (např. h1) {vlastnosti} ==> h1 {color: white)
   -VLASTNOSTI: color: určuje barvu textu. background-color: určuje barvu pozadí prvku. font-size: určuje velikost písma. 
   font-family: určuje typ písma. text-align: určuje zarovnání textu (vlevo, vpravo, střed). width: určuje šířku prvku.
   height: určuje výšku prvku. border: určuje rámeček kolem prvku. opacity: určuje průhlednost prvku.
