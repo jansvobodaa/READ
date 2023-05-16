@@ -1,36 +1,51 @@
 1. PROGRAMOVÁNÍ – DATOVÉ TYPY
-Proměnné jsou základním stavebním kamenem programování. Slouží k ukládání hodnot, se kterými se v programu pracuje. 
-Vznikají definováním (datový typ + název). Datový typ určuje, co v proměnné může být uloženo a jaké operace jsou s tou 
-proměnnou povoleny. Datové typy jsou různé a jejich použité závisí na tom, co bude v proměnné uloženo.
 
+-Proměnné jsou základním stavebním kamenem programování. Slouží k ukládání hodnot, se kterými se v programu pracuje. 
+Vznikají definováním (datový typ + název). Datový typ určuje co v proměnné může být uloženo a jaké operace jsou s tou 
+proměnnou povoleny. Datové typy jsou různé a jejich použité závisí na tom, co bude v proměnné uloženo.
+___
 -primitivní typy:
 čísla (byte, short, int, long, float, double),
 znaky (char),
 logické hodnoty (boolean),
+
 -referenční typy:
 třídy (class),
 pole (array)
-
+___
 Logická hodnota (boolean) – může nabývat hodnot 0/1 nebo false/true.
 Celé číslo (integer) – v C je standartně integer 16bitový a proto může nabývat od -216-1 až 216-1 (-65535 < i < 65535)
 Znak (char) – ukládá jeden znak. V počítači je reprezentován pomocí celého čísla.
 Reálné číslo (double, float, real) – ukládá čísla s desetinnými čísly.
-
 V C se můžeme setkat s prázdným datovým typem void, pro který nenabývá žádných hodnot. 
 Může sloužit pro deklaraci funkce, která nemá návratovou hodnotu.
+___
+-Definice X Deklarace (udává typ a jméno) - Definice alokuje paměť pro proměnnou v paměti RAM
+___
+-Aritmetické operátory:
++ součet
+− rozdíl
+* násobení
+/ dělení (celočíselné i desetinné)
+% zbytek po celočíselném dělení 
 
-Definice X Deklarace (udává typ a jméno) - Definice alokuje paměť pro proměnnou v paměti RAM
+-Složené aritmetické operátory:
+x++ => x = x+1
+x-- => x = x-1
+___
+-Relační operátory:
+používají se pro porovnání hodnot dvou číselných proměnných (pokud nejsou stejného typu, tak se převedou na delší typ), 
+proměnných typu char a boolean. Výsledkem je hodnota typu boolean, tj. buď pravda (true) nebo nepravda (false) - nejčastěji s -if-
+== rovná se
+!= nerovná se
+< menší než
+> větší než
+<= menší nebo rovno
+>= větší nebo rovno
+____
 
-Datový typ záznam (struct) se používá k postavení struktury neboli k spojení několika datových typů do jednoho. (Heterogenní datový typ)
-Příklad:
-struct pisnicka {
-float: delka,
-char interpret[20],
-char zanr[10],
-int rok_vydani
-}
-
-1) Určete, jaká bude hodnota v proměnné a po skončení této sekvence příkazů:
+Příklad
+1) Určete, jaká bude hodnota v proměnné -a- po skončení této sekvence příkazů:
 int a,b,c; // definujeme proměnné typy integer
 a=b=c=0; // přiřazení hodnoty 0 všem proměnným
 if (++b) a+=b; // pokud se podaří navýšit hodnotu b, splní se inkrementování a o hodnotu b
