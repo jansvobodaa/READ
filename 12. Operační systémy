@@ -31,6 +31,17 @@ ______
   -Architektura iOS je založena na jádře Darwin, které je založeno na BSD, což je odnož Unixu
   -vývoj aplikací pomocí programovacího jazyka - Swift, který je vyvinutý společností Apple. Také možno použít Objective-C.
   -stabilita, výkon, elegantní design a uživatelsky přívětivé rozhraní + Apple ekosystém - propojení s dalšími Apple zařízeními
+_____
+Rozdělení OS na části:
+-Jádro (kernel) - je základní částí, která má přímý přístup k hardwaru počítače a spravuje všechny základní operace systému.
+  Stará se o správu paměti, plánování procesů, ovladače zařízení, souborový systém a další klíčové funkce. Je na nejnižší úrovni 
+  OS a umožňuje komunikaci mezi hardwarem a ostatními částmi systému.
+-Komunikace s uživatelem (hardwarem) - zajišťuje komunikaci mezi uživatelem a hardwarovými komponenty počítače. Zahrnuje ovladače 
+  zařízení, které umožňují systému komunikovat s konkrétním hardwarem (klávesnice, myš, monitor, tiskárny,...). Komunikace s uživatelem 
+  také zahrnuje rozhraní pro interakci s uživatelským prostředím, například grafické uživatelské rozhraní (GUI) nebo příkazovou řádku.
+-Komunikace se softwarem - zabývá se správou a koordinací běžícího softwaru a aplikací v systému. Zahrnuje manažery procesů, které 
+  sledují běžící procesy a alokují jim systémové prostředky, správu paměti pro správné načítání a uvolňování paměti, souborový systém 
+  pro organizaci a správu souborů a adresářů, síťové služby a další součásti, které umožňují interakci s aplikacemi a softwarem.
 ______
 otázky
 1) Operáční systém X firmware?
