@@ -32,6 +32,15 @@ ______
   -vývoj aplikací pomocí programovacího jazyka - Swift, který je vyvinutý společností Apple. Také možno použít Objective-C.
   -stabilita, výkon, elegantní design a uživatelsky přívětivé rozhraní + Apple ekosystém - propojení s dalšími Apple zařízeními
 ______
+otázky
+1) Operáční systém X firmware?
+-Firmware: soubor instrukcí a dat uložených v paměti zařízení, které definují jeho základní funkce a chování. 
+Nízkoúrovňový software, který je pevně nahrán do hardware zařízení. Specifický pro každý typ zařízení a je zodpovědný za řízení 
+hardwarových komponent, jako procesor, paměť, periferní zařízení,... A poskytuje rozhraní mezi hardwarovým a softwarovým systémem
+-Operační systém: vyšší úroveň softwaru, který běží na zařízení a poskytuje uživatelům rozhraní pro interakci s hardwarem a aplikacemi. 
+hlavní funkcí je správa prostředků zařízení, organizace souborů, provádění aplikací, správa paměti, síťová komunikace a další úkoly 
+spojené s provozem PC. Dále poskytuje sadu knihoven, ovladačů a nástrojů pro vývojáře - aby mohli vytvářet aplikace pro danou platformu.
 
-
-
+2)Bootování (legacy vs. UeFI vs. PXE)
+-bootování - proces - provádí se při zapnutí počítače nebo restartu a zajišťuje inicializaci operačního systému a spuštění PC.
+-legacy boot (BIOS boot): Legacy boot je tradiční metoda bootování používaná v počítačích s BIOS (Basic Input/Output System). Při legacy bootování počítač načítá bootloader (nahrávač) z MBR (Master Boot Record) disku. MBR obsahuje informace o bootovacím zařízení a bootovacím sektoru, který obsahuje samotný bootloader. Legacy bootování je závislé na MBR, což má některá omezení, jako maximální velikost disku, omezení na počet primárních oddílů atd.
