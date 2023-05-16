@@ -69,3 +69,4 @@ a*=c; // násobíme a=a*c = a = 1*1
 2) Vytvořte v editoru DEV-C++ program, který bude obsahovat sekvenci příkazů z předchozího bodu a provede 
 výpis proměnných a, b, c na obrazovku:
 printf(“%d %d %d”,a,b,c);
+
