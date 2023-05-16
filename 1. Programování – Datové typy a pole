@@ -1,1 +1,42 @@
+1. PROGRAMOVÁNÍ – DATOVÉ TYPY
+Proměnné jsou základním stavebním kamenem programování. Slouží k ukládání hodnot, se kterými se v programu pracuje. 
+Vznikají definováním (datový typ + název). Datový typ určuje, co v proměnné může být uloženo a jaké operace jsou s tou 
+proměnnou povoleny. Datové typy jsou různé a jejich použité závisí na tom, co bude v proměnné uloženo.
 
+-primitivní typy:
+čísla (byte, short, int, long, float, double),
+znaky (char),
+logické hodnoty (boolean),
+-referenční typy:
+třídy (class),
+pole (array)
+
+Logická hodnota (boolean) – může nabývat hodnot 0/1 nebo false/true.
+Celé číslo (integer) – v C je standartně integer 16bitový a proto může nabývat od -216-1 až 216-1 (-65535 < i < 65535)
+Znak (char) – ukládá jeden znak. V počítači je reprezentován pomocí celého čísla.
+Reálné číslo (double, float, real) – ukládá čísla s desetinnými čísly.
+
+V C se můžeme setkat s prázdným datovým typem void, pro který nenabývá žádných hodnot. 
+Může sloužit pro deklaraci funkce, která nemá návratovou hodnotu.
+
+Definice X Deklarace (udává typ a jméno) - Definice alokuje paměť pro proměnnou v paměti RAM
+
+Datový typ záznam (struct) se používá k postavení struktury neboli k spojení několika datových typů do jednoho. (Heterogenní datový typ)
+Příklad:
+struct pisnicka {
+float: delka,
+char interpret[20],
+char zanr[10],
+int rok_vydani
+}
+
+1) Určete, jaká bude hodnota v proměnné a po skončení této sekvence příkazů:
+int a,b,c; // definujeme proměnné typy integer
+a=b=c=0; // přiřazení hodnoty 0 všem proměnným
+if (++b) a+=b; // pokud se podaří navýšit hodnotu b, splní se inkrementování a o hodnotu b
+c=b++; // do c se přiřadí hodnota 1 (hodnota b před inkrementací) a v proměnné b bude následně hodnota 2
+a*=c; // násobíme a=a*c = a = 1*1
+
+2) Vytvořte v editoru DEV-C++ program, který bude obsahovat sekvenci příkazů z předchozího bodu a provede 
+výpis proměnných a, b, c na obrazovku:
+printf(“%d %d %d”,a,b,c);
