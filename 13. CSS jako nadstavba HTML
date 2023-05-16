@@ -24,6 +24,16 @@ CSS - Cascading Style Sheets (Kaskádové styly)- jazyk pro popis způsobu zobra
  značně zlepšuje - opravami chyb v prohlížečích a nástupem nových verzí.
 ______
 -JAVASCRIPT
+  programovací jazyk, který se používá v internetových stránkách. Zapisuje se přímo do HTML kódu, což je velká výhoda, protože je to 
+  jednoduché. JavaScript je klientský skript - to znamená, že se program odesílá se stránkou na klienta (do prohlížeče) a teprve tam 
+  je vykonáván. (Protikladem klientských skriptů jsou skripty serverové např. PHP, které jsou vykonávány na serveru a na klienta jdou 
+  už jen výsledky.) 
+  Jazyk interpretovaný - nemusí se kompilovat, objektový - využívá objektů prohlížeče a zabudovaných objektů, závislý na 
+  prohlížeči - funguje ale ve většině prohlížečů, case sensitivní - záleží na velikosti písem v zápisu, syntaxí podobný jazykům C a Java
+  JavaScript je skriptovací jazyk, který umožňuje vytvořit hodiny, hodnotit data ve formuláři, počítat, dynamizovat data, umožňuje 
+  tvorbu všemožných prvků k oživení webu, přes blikající texty po jednoduché hry. 
+-Základem dynamického webu je právě JavaScript. Abyste mohli pracovat s JavaScriptem měli byste znát základy HTML. 
+-JavaScript je závislý na prohlížeči (uživatel si může vypnout). V různých verzích prohlížečů nemusí vždy korektně fungovat.
   
 
 
